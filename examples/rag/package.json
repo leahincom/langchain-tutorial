@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo/rag",
+  "type": "module",
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "start:watch": "nodemon --watch 'src/**/*.ts' --exec 'yarn start'",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.12",
+    "@langchain/openai": "^0.0.11",
+    "@supabase/supabase-js": "^2.39.2",
+    "langchain": "^0.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
