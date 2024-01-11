@@ -4,10 +4,11 @@
   "packageManager": "yarn@4.0.2",
   "scripts": {
     "start": "tsx ./src/index.ts",
-    "start:watch": "nodemon --watch 'src/**/*.ts' --exec 'yarn start'",
+    "start:watch": "nodemon --watch --exec 'yarn start'",
     "build": "tsc -p ."
   },
   "dependencies": {
+    "@langchain/community": "^0.0.16",
     "@langchain/core": "^0.1.12",
     "@langchain/openai": "^0.0.11",
     "@supabase/supabase-js": "^2.39.2",

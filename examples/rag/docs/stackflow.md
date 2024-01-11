@@ -28,7 +28,7 @@ So, what advantages does **Stackflow** have compared to the existing navigation 
 
 - You can only use the state for stacks and transitions separately without UI. You can tear off the UI and use it as you like.
 - You can inject any additional extensions you want between lifecycles through the plugin interface.
-- Since the core logic and integration layers are separated, it can be integrated with various front-end frameworks. (Now only supports React)
+- Since ##the core logic and integration layers are separated, it can be integrated with various front-end frameworks. (Now only supports React)
 - Because render logic and UI can be injected from the outside, mobile webview and desktop development can be done in one codebase.
 - Server-Side Rendering is supported. (`ReactDOMServer.renderToString`)
 

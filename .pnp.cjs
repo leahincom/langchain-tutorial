@@ -294,10 +294,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:5436cf157fa5d4e3b5d2229856a36d7729f84c8935f327d3a5a4d2be71cead0cba0aeb3780913e54c71fcac4f9828c2a83a15416b68cda31bb9a0f9521dcbf87#npm:0.0.16", {\
-        "packageLocation": "./.yarn/__virtual__/@langchain-community-virtual-9af370828d/3/.yarn/berry/cache/@langchain-community-npm-0.0.16-318a5d3642-10c0.zip/node_modules/@langchain/community/",\
+      ["virtual:aa708c48608cbccdcafd7965e80b296132947b59e83d1d817573cc1ce0df33cd74301824a7540838df58e813bfe4ba7a63424a000bbdcc1f097d3bbe6da2d0f9#npm:0.0.16", {\
+        "packageLocation": "./.yarn/__virtual__/@langchain-community-virtual-2160725ffa/3/.yarn/berry/cache/@langchain-community-npm-0.0.16-318a5d3642-10c0.zip/node_modules/@langchain/community/",\
         "packageDependencies": [\
-          ["@langchain/community", "virtual:5436cf157fa5d4e3b5d2229856a36d7729f84c8935f327d3a5a4d2be71cead0cba0aeb3780913e54c71fcac4f9828c2a83a15416b68cda31bb9a0f9521dcbf87#npm:0.0.16"],\
+          ["@langchain/community", "virtual:aa708c48608cbccdcafd7965e80b296132947b59e83d1d817573cc1ce0df33cd74301824a7540838df58e813bfe4ba7a63424a000bbdcc1f097d3bbe6da2d0f9#npm:0.0.16"],\
           ["@aws-crypto/sha256-js", null],\
           ["@aws-sdk/client-bedrock-runtime", null],\
           ["@aws-sdk/client-dynamodb", null],\
@@ -664,6 +664,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./examples/rag/",\
         "packageDependencies": [\
           ["@monorepo/rag", "workspace:examples/rag"],\
+          ["@langchain/community", "virtual:aa708c48608cbccdcafd7965e80b296132947b59e83d1d817573cc1ce0df33cd74301824a7540838df58e813bfe4ba7a63424a000bbdcc1f097d3bbe6da2d0f9#npm:0.0.16"],\
           ["@langchain/core", "npm:0.1.12"],\
           ["@langchain/openai", "npm:0.0.11"],\
           ["@supabase/supabase-js", "npm:2.39.2"],\
@@ -1762,7 +1763,7 @@ const RAW_RUNTIME_STATE =
           ["@gomomento/sdk-web", null],\
           ["@google-ai/generativelanguage", null],\
           ["@google-cloud/storage", null],\
-          ["@langchain/community", "virtual:5436cf157fa5d4e3b5d2229856a36d7729f84c8935f327d3a5a4d2be71cead0cba0aeb3780913e54c71fcac4f9828c2a83a15416b68cda31bb9a0f9521dcbf87#npm:0.0.16"],\
+          ["@langchain/community", "virtual:aa708c48608cbccdcafd7965e80b296132947b59e83d1d817573cc1ce0df33cd74301824a7540838df58e813bfe4ba7a63424a000bbdcc1f097d3bbe6da2d0f9#npm:0.0.16"],\
           ["@langchain/core", "npm:0.1.12"],\
           ["@langchain/openai", "npm:0.0.11"],\
           ["@notionhq/client", null],\
